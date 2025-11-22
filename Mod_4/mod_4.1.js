@@ -27,7 +27,8 @@ document.querySelector('#tv-maze').addEventListener('submit', async function (ev
   You can access more items by adding more keywords for example (item.show.name)
   */
   result.forEach((item ) =>{
-      console.log(item.show.name);
+      console.log('Name:', item.show.name);
+      console.log('More information:', item.show);
   })
 });
 
