@@ -96,7 +96,7 @@ const picArray = [
 
 const section = document.querySelector('#pictures');
 
-picArray.forEach((pic,) => {
+picArray.forEach((pic) => {
 
   //Creating all the elements and adding values into them.
 
@@ -130,5 +130,5 @@ picArray.forEach((pic,) => {
   fig.appendChild(image);
   image.appendChild(figCaption);
 
-})
+});
 
